@@ -302,11 +302,13 @@ label.dropdownDisabled::after {
     pointer-events :none; /* let the click pass trough */
 }
 
-select option[val="1"]{
-    background: red;
+select, option {
+    color:#555555;
 }
 
-
+select[data-value='s'] {
+    color:#c7cacb;
+}
 
 /*same trick with pick http://jsfiddle.net/afshinprofe/qhCsJ/3/*/
 
